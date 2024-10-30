@@ -1,0 +1,30 @@
+{
+    "name": "mapado/mapado-plugin",
+    "description": "Mapado Wordrpress plugin",
+    "license": "proprietary",
+    "require": {
+        "mapado/php-sdk": "^0.16.0",
+        "league/oauth2-client": "^2.3",
+        "mapado/image-url-builder": "^1.2",
+        "mapado/league-oauth2-provider": "1.0.x-dev",
+        "symfony/polyfill-php70": "dev-php70versionCheck as 1.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.4|^4.1",
+        "mapado/php-cs-fixer-config": "^2.1.3"
+    },
+    "conflict": {
+        "doctrine/annotations": ">=1.5"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jdeniau/polyfill-php70"
+        }
+    ]
+}

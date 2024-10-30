@@ -1,0 +1,25 @@
+{
+    "name": "mapado/php-sdk",
+    "description": "PHP SDK for Mapado API v2",
+    "require": {
+        "mapado/rest-client-sdk": "^0.33.3"
+    },
+    "require-dev": {
+        "atoum/atoum": "^3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "Mapado\\Sdk\\": "src/" }
+    },
+    "authors": [
+        {
+            "name": "Julien Deniau",
+            "email": "julien.deniau@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

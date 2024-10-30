@@ -1,0 +1,30 @@
+# includes:
+
+parameters:
+    level: 7
+
+    excludes_analyse:
+        - '%currentWorkingDirectory%/wordpress-stubs.php'
+        - '%currentWorkingDirectory%/vendor/'
+        - '%currentWorkingDirectory%/deploy-script/'
+    autoload_files:
+        - '%currentWorkingDirectory%/wordpress-stubs.php'
+        - '%currentWorkingDirectory%/mapado.php'
+        - '%currentWorkingDirectory%/class/microtemplate.class.php'
+        - '%currentWorkingDirectory%/class/notification.class.php'
+        - '%currentWorkingDirectory%/class/private.auth.php'
+        - '%currentWorkingDirectory%/class/public.auth.php'
+        - '%currentWorkingDirectory%/class/setting.class.php'
+        - '%currentWorkingDirectory%/class/utils.class.php'
+        - '%currentWorkingDirectory%/class/widget.class.php'
+    ignoreErrors:
+        - '#^Undefined variable: \$vars$#'
+        - '#^Undefined variable: \$mapado$#'
+        - '#^Function add_query_arg invoked with [123] parameters, 0 required.#'
+        - '#^Function apply_filters invoked with [345] parameters, 2 required.#'
+        - '#^Constant ABSPATH not found.#'
+        - '#^Variable \$vars might not be defined.#'
+        - '#^Call to an undefined method Mapado\\RestClientSdk\\EntityRepository::#'
+        - '#should return string|null but empty return statement found.#'
+        - '#^Offset .* does not exist on array#'
+        - '#^Cannot access property $ID on array|WP_Post.#'

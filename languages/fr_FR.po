@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-09-13 15:59+0200\n"
+"PO-Revision-Date: 2018-09-13 16:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ../templates/admin\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: settings.php\n"
+
+#: settings.php:29
+msgid "API settings"
+msgstr "Réglages API"
+
+#: settings.php:38
+msgid "Import your lists"
+msgstr "Importez vos listes"
+
+#: settings.php:47
+msgid "display parameter"
+msgstr "Options d'affichage"
+
+#: settings.php:56
+msgid ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                        <h1>Welcome to Mapado Events Plugin</h1>\n"
+"                        <p>You'll be able to import a list of events easily "
+"in a few clicks.</p>\n"
+"                    </div>"
+msgstr ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                        <h1>Bonjour et bienvenue sur Mapado Events Plugin</"
+"h1>\n"
+"                        <p>Vous allez pouvoir importer une liste d"
+"\\'événements facilement en quelques clics.</p>\n"
+"                    </div>"
+
+#: settings.php:61
+msgid ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                    <p>Choose the lists which you wish to import with the "
+"desired url.</p>\n"
+"                    </div>"
+msgstr ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                    <p>Choisissez les listes que vous souhaitez importer "
+"avec l\\'url souhaitée.</p>\n"
+"                    </div>"
+
+#: settings.php:79
+msgid "Previous step"
+msgstr "&lt; &Eacute;tape précédantes"
+
+#: settings.php:86
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: settings.php:88
+msgid "Continue"
+msgstr "Continuer"

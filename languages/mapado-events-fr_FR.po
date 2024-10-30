@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-10-04 15:55+0200\n"
+"PO-Revision-Date: 2018-10-04 15:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: templates/admin/settings.php\n"
+"X-Poedit-SearchPath-1: templates/admin/settings_api.php\n"
+"X-Poedit-SearchPath-2: templates/admin/settings_imports.php\n"
+"X-Poedit-SearchPath-3: templates/admin/settings_options_list.php\n"
+"X-Poedit-SearchPath-4: templates/admin/user_lists.php\n"
+"X-Poedit-SearchPath-5: templates/error.php\n"
+"X-Poedit-SearchPath-6: class/private.auth.php\n"
+"X-Poedit-SearchPath-7: class/public.auth.php\n"
+
+#: class/private.auth.php:60 class/private.auth.php:61
+#: templates/admin/settings.php:45
+msgid "API settings"
+msgstr "Réglages API"
+
+#: class/private.auth.php:71 class/private.auth.php:72
+#: templates/admin/settings.php:54
+msgid "Import your lists"
+msgstr "Importez vos listes"
+
+#: class/private.auth.php:81 class/private.auth.php:82
+#: templates/admin/settings.php:61 templates/admin/settings.php:63
+msgid "Display parameter"
+msgstr "Options d'affichage"
+
+#: class/private.auth.php:220 class/private.auth.php:329
+msgid "There was a problem"
+msgstr "Il y a eu un problème"
+
+#: class/private.auth.php:224 class/private.auth.php:333
+msgid "Saved settings"
+msgstr "Paramètres sauvegardés"
+
+#: class/private.auth.php:237 class/private.auth.php:280
+msgid "You have not entered your API settings"
+msgstr "Vous n'avez pas entré vos réglages API"
+
+#: class/private.auth.php:274
+msgid "You have not uploaded a list yet"
+msgstr "Vous n'avez pas encore importé de liste"
+
+#: class/private.auth.php:375
+msgid "The identifier is already used"
+msgstr "L'identifiant est déjà utilisé"
+
+#: class/private.auth.php:393
+msgid "Trouble creating"
+msgstr "Problème lors de la création"
+
+#: class/private.auth.php:412
+msgid "Error during the update"
+msgstr "Erreur pendant la mise à jour"
+
+#: class/private.auth.php:421
+msgid "Lists updated"
+msgstr "Listes mises à jours"
+
+#: class/public.auth.php:177 class/public.auth.php:302
+#: class/public.auth.php:375
+msgid "Listing page: Unauthorized access, check your Mapado credentials."
+msgstr "Page listing : Accès non autorisé, vérifiez vos identifiants Mapado."
+
+#: templates/admin/settings.php:20
+msgid ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                    <h1>Welcome to Mapado Events Plugin</h1>\n"
+"                    <p>You'll be able to import a list of events easily in a "
+"few clicks.</p>\n"
+"                </div>"
+msgstr ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                        <h1>Bonjour et bienvenue sur Mapado Events Plugin</"
+"h1>\n"
+"                        <p>Vous allez pouvoir importer une liste "
+"d'événements facilement en quelques clics.</p>\n"
+"                    </div>"
+
+#: templates/admin/settings.php:25
+msgid ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                <h1>Import your lists</h1>\n"
+"                <p>Choose the lists which you wish to import with the "
+"desired url.</p>\n"
+"                </div>"
+msgstr ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                    <h1>Importez vos listes</h1>\n"
+"                    <p>Choisissez les listes que vous souhaitez importer "
+"avec l'url souhaitée.</p>\n"
+"                    </div>"
+
+#: templates/admin/settings.php:30
+msgid ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                <h1>Display parameter</h1>\n"
+"                <p>Choose a list and change its display settings.</p>\n"
+"                </div>"
+msgstr ""
+"<div class=\"mapado-setting-welcome\">\n"
+"                    <h1>Paramètres d'affichage</h1>\n"
+"                    <p>Choisissez une liste et modifiez ses paramètres "
+"d'affichage.</p>\n"
+"                    </div>"
+
+#: templates/admin/settings.php:43
+msgid "Your API settings"
+msgstr "Vos réglages API"
+
+#: templates/admin/settings.php:52 templates/admin/settings_imports.php:6
+msgid "Your lists"
+msgstr "Vos listes"
+
+#: templates/admin/settings.php:84
+msgid "Previous step"
+msgstr "&lt; &Eacute;tape précédantes"
+
+#: templates/admin/settings.php:91
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: templates/admin/settings.php:93
+msgid "Continue"
+msgstr "Continuer"
+
+#: templates/admin/settings_api.php:4
+msgid "Enter your API settings"
+msgstr "Entrez vos réglages API"
+
+#: templates/admin/settings_api.php:6
+msgid "Find my API key"
+msgstr "Trouver ma clé API"
+
+#: templates/admin/settings_api.php:7
+msgid "Where to find this informations ?"
+msgstr "Où trouver ces informations ?"
+
+#: templates/admin/settings_api.php:24
+msgid "Secret code"
+msgstr "Code secret"
+
+#: templates/admin/settings_api.php:32
+msgid "Authentication token"
+msgstr "Jeton d'autentification"
+
+#: templates/admin/settings_imports.php:11
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: templates/admin/settings_options_list.php:45
+msgid "Maximum number of columns"
+msgstr "Nombre de colonnes maximum"
+
+#: templates/admin/settings_options_list.php:67
+msgid "Number of events per page"
+msgstr "Nombre d'événements par page"
+
+#: templates/admin/settings_options_list.php:86
+msgid "Image position"
+msgstr "Position des images"
+
+#: templates/admin/settings_options_list.php:108
+msgid "Image orientation"
+msgstr "Orientation des images"
+
+#: templates/admin/settings_options_list.php:117
+msgid "Portrait"
+msgstr "Portrait"
+
+#: templates/admin/settings_options_list.php:125
+msgid "Landscape"
+msgstr "Paysage"
+
+#: templates/admin/settings_options_list.php:133
+msgid "Square"
+msgstr "Carré"
+
+#: templates/admin/settings_options_list.php:141
+msgid "Image size"
+msgstr "Taille des images"
+
+#: templates/admin/settings_options_list.php:150
+#: templates/admin/settings_options_list.php:306
+msgid "Large"
+msgstr "Large"
+
+#: templates/admin/settings_options_list.php:158
+#: templates/admin/settings_options_list.php:314
+msgid "Average"
+msgstr "Moyenne"
+
+#: templates/admin/settings_options_list.php:166
+#: templates/admin/settings_options_list.php:322
+msgid "Small"
+msgstr "Petite"
+
+#: templates/admin/settings_options_list.php:174
+msgid "Sorting lists"
+msgstr "Tri des listes"
+
+#: templates/admin/settings_options_list.php:191
+msgid "Date + Visuals"
+msgstr "Date + Visuels"
+
+#: templates/admin/settings_options_list.php:207
+msgid "Date + Tops + Visuals"
+msgstr "Date + Tops + Visuels"
+
+#: templates/admin/settings_options_list.php:215
+msgid "List Depth"
+msgstr "Profondeur de la liste"
+
+#: templates/admin/settings_options_list.php:224
+msgid "Show lists (level 1)"
+msgstr "Afficher les listes (niveau 1)"
+
+#: templates/admin/settings_options_list.php:232
+msgid "Show the events of lists (level 2)"
+msgstr "Afficher les événements des listes (niveau 2)"
+
+#: templates/admin/settings_options_list.php:240
+msgid "Display past events ?"
+msgstr "Afficher les événements passés ?"
+
+#: templates/admin/settings_options_list.php:253
+msgid "Show search bar?"
+msgstr "Afficher la barre de recherche ?"
+
+#: templates/admin/settings_options_list.php:264
+#: templates/admin/settings_options_list.php:344
+msgid "Advanced settings"
+msgstr "Paramètres avancés"
+
+#: templates/admin/settings_options_list.php:274
+#: templates/admin/settings_options_list.php:354
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: templates/admin/settings_options_list.php:276
+msgid "Template"
+msgstr "Modèle d'affichage"
+
+#: templates/admin/settings_options_list.php:291
+msgid "Style of the event sheets"
+msgstr "Style des fiches événements"
+
+#: templates/admin/settings_options_list.php:297
+msgid "Image sizes (event sheets)"
+msgstr "Taille des images des fiches événements"
+
+#: templates/admin/settings_options_list.php:331
+msgid "Display the main information in a widget?"
+msgstr "Afficher les informations principales dans un widget ?"
+
+#: templates/admin/settings_options_list.php:356
+msgid "Template (event sheets)"
+msgstr "Modèle d'affichage des fiches événements"
+
+#: templates/admin/user_lists.php:27
+msgid "Current slug :"
+msgstr "Slug actuel :"
+
+#: templates/admin/user_lists.php:32
+msgid "Delete the list"
+msgstr "Supprimer la liste"
+
+#: templates/admin/user_lists.php:35
+msgid "Choose the slug :"
+msgstr "Choisir le slug :"
+
+#: templates/admin/user_lists.php:39
+msgid "my-list-slug"
+msgstr "slug-de-ma-liste"
+
+#: templates/admin/user_lists.php:41
+msgid "Import the list"
+msgstr "Importer la liste"
+
+#: templates/error.php:2
+msgid "An error occurred"
+msgstr "Une erreur est survenue"
+
+#~ msgid "Display Parameter"
+#~ msgstr "Options d'affichage"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "List to display"
+#~ msgstr "Liste à afficher"
+
+#~ msgid "List depth"
+#~ msgstr "Profondeur de la liste"
+
+#~ msgid "Number of events displayed"
+#~ msgstr "Nombre d'événements par page"
+
+#~ msgid "Thumbnails dimensions"
+#~ msgstr "Dimension des vignettes"
+
+#~ msgid "Single Event Template"
+#~ msgstr "Mise en page d'un événement"
+
+#~ msgid "<div class=\"\">Back to the event listing home page : "
+#~ msgstr "<div class=\"\">Retour à la page d'accueil de l'événement : "
+
+#~ msgid "Event listing with Mapado"
+#~ msgstr "Agenda avec Mapado"
+
+#~ msgid "Full price : "
+#~ msgstr "Plein tarif : "
+
+#~ msgid "Reduced price : "
+#~ msgstr "Tarif réduit : "
+
+#~ msgid "Soon"
+#~ msgstr "Prochainement"
+
+#~ msgid "Practical information for "
+#~ msgstr "Informations pratiques pour "
+
+#~ msgid "Official website</a>"
+#~ msgstr "Site officel</a>"
+
+#~ msgid "Facebook of the event</a>"
+#~ msgstr "Facebook de l'événement</a>"
+
+#~ msgid "Phone : "
+#~ msgstr "Téléphone : "
+
+#~ msgid "Filter"
+#~ msgstr "Filtrer"
+
+#~ msgid "search (city, keyword, ...)"
+#~ msgstr "rechercher (ville, mot clés, …)"
+
+#~ msgid "Choose a date"
+#~ msgstr "Choisir une date"
+
+#~ msgid "Today"
+#~ msgstr "Aujourd'hui"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Demain"
+
+#~ msgid "This week-end"
+#~ msgstr "Ce weekend"
+
+#~ msgid "Validate"
+#~ msgstr "Valider"
+
+#~ msgid " with"
+#~ msgstr " avec"
